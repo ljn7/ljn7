@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/laudep/code-gif-generator/master/docs/img/generating.gif" align="center" alt=gif style="width: 100%" />
+<img src="https://raw.githubusercontent.com/laudep/code-gif-generator/master/docs/img/generating.gif" align="center" alt="gif" style="width: 100%" />
 </div>  
   
 
