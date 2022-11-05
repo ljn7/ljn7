@@ -6,10 +6,7 @@
 ### <div align="center">I'm John Nirmal. L, Student & Working as a Freelancer (MS Windows Tech).</div>  
   
 
-- 🌱 I’m currently learning Java and C#.  
-  
-
-- ⚡ Currently learning Unity engine during my freetime since AUG 2022.  
+- 🌱 Currently learning core Java & Spring boot.
   
 
 <br/>  
