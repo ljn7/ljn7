@@ -3,7 +3,7 @@
 </div>  
   
 
-### <div align="center">I'm John Nirmal. L, Student & Working as a Freelancer (MS Windows Tech).</div>  
+### <div align="center">John Nirmal. <br/> Student | Freelancer | Tech enthusiast.</div>  
   
 
 - 🌱 Currently learning core Java & Spring boot.
