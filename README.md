@@ -5,8 +5,10 @@
 
 ### <div align="center">John Nirmal. <br/> Student | Freelancer | Tech enthusiast.</div>  
   
-
-- 🌱 Currently learning core Java & Spring boot.
+ <b> Currently Learning <b><br>
+- 🌱 Java frameworks
+- 🌱 NoSQL
+- 🌱 Docker in depth
   
 
 <br/>  
