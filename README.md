@@ -3,13 +3,13 @@
 </div>  
   
 
-### <div align="center">John Nirmal. <br/> Student | Freelancer | Tech enthusiast.</div>  
+### <div align="center">John Nirmal. <br/> Backend Dev| Freelancer | Student | Tech enthusiast.</div>  
   
  <b> Currently Learning <b><br>
 - 🌱 Java frameworks
 - 🌱 NoSQL
 - 🌱 Docker in depth
-  
+- 🌱 MERN Stack
 
 <br/>  
 
