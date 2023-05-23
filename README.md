@@ -1,7 +1,4 @@
-<div align="center">
-<img src="https://raw.githubusercontent.com/laudep/code-gif-generator/master/docs/img/generating.gif" align="center" style="width: 100%" />
-</div>  
-  
+
 
 ### <div align="center">John Nirmal. <br/> Backend Developer | Freelancer | Student | Tech enthusiast.</div>  
   
@@ -12,7 +9,10 @@
 - 🌱 MERN Stack
 
 <br/>  
-
+<div align="center">
+<img src="https://raw.githubusercontent.com/laudep/code-gif-generator/master/docs/img/generating.gif" align="center" style="width: 100%" />
+</div>  
+  
 
 ## My Skill Set  
 <table><tr><td valign="top" width="33%">
