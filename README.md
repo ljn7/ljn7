@@ -1,6 +1,6 @@
 
 
-### <div align="center">John Nirmal. <br/> Backend Developer | Freelancer | Student | Tech enthusiast.</div>  
+### <div align="center">John Nirmal. <br/> Backend Developer | Freelancer | Student | Open Source & Tech enthusiast.</div>  
   
  <b> Currently Learning <b><br>
 - 🌱 Java frameworks
