@@ -1,12 +1,10 @@
 
 
-### <div align="center">John Nirmal. <br/> Backend Developer | Freelancer | Student | Open Source & Tech enthusiast.</div>  
+### <div align="center">John Nirmal <br/>Software Developer Intern @IITB <br/><br/> Backend Developer | Freelancer | Student | Open Source & Tech enthusiast.</div>  
   
- <b> Currently Learning <b><br>
-- 🌱 Java frameworks
-- 🌱 NoSQL
-- 🌱 Docker in depth
-- 🌱 MERN Stack
+ <b> Currently Working Languages & Frameworks<b><br>
+- C++
+- Qt
 
 <br/>  
 <div align="center">
