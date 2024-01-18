@@ -1,6 +1,6 @@
 
 
-### <div align="center">John Nirmal <br/>Software Developer Intern @IITB <br/><br/> Backend Developer | Freelancer | Student | Open Source & Tech enthusiast.</div>  
+### <div align="center">John Nirmal <br/>Software Developer Intern @IIT Bombay <br/><br/> Backend Developer | Freelancer | Student | Open Source & Tech enthusiast.</div>  
   
  <b> Currently Working Languages & Frameworks<b><br>
 - C++
