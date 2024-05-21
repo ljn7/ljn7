@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ljn7" alt="ljn7" /></a> </p>
 
-- 🔭 I’m currently working on [Vagyojaka: An Annotating and Post-Editing Tool for Automatic Speech Recognition (Private link is not posted)](https://github.com/ljn7/Transcriptor)
+- 🔭 Currently working on [Vagyojaka: An Annotating and Post-Editing Tool for Automatic Speech Recognition (Private link is not posted)](https://github.com/ljn7/Transcriptor)
 
-- 🌱 I’m currently learning **React.JS**
+- 🌱 Currently learning tech stack **React.JS**
 
 - 💬 Ask me about **\*.c, \*.cpp, \*.java, \*.js**
 
