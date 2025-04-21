@@ -5,11 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ljn7" alt="ljn7" /></a> </p>
 
-- 🔭 Currently working on [Vagyojaka: An Annotating and Post-Editing Tool for Automatic Speech Recognition (IIT Bombay)](https://github.com/ljn7/Transcriptor-Updated)
-
-- 🌱 Currently learning tech stack **React.JS**
-
-- 💬 Ask me about **\*.c, \*.cpp, \*.java, \*.js**
+- 💬 Ask me about **\*.c, \*.cpp, \*.java, \*.js**, \*.py**
 
 - ⚡ Fun fact <br>
 **#include <stdio.h> <br> 
