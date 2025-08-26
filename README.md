@@ -3,6 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ljn7&label=Profile%20views&color=0e75b6&style=flat" alt="ljn7" /> </p>
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ljn7)](https://github.com/anuraghazra/github-readme-stats)
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/api?username=ljn7" alt="ljn7" /></a> </p>
 
 - 💬 Ask me about **\*.c, \*.cpp, \*.java, \*.js**, \*.py**
