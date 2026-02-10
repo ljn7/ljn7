@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋 <br>I'm John Nirmal</h1>
-<h3 align="center"> ex Software Engineer at BharatGen, TIH | IIT Bombay</h3>
+<h3 align="center"> Software Engineer @ CPDG, IISC </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ljn7&label=Profile%20views&color=0e75b6&style=flat" alt="ljn7" /> </p>
 
