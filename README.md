@@ -135,7 +135,6 @@ A Software Engineer at **CDPG, IISc**, currently on a grand quest to modernize l
     <td align="center" width="80"><a href="https://github.com/features/actions" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" width="40" height="40" alt="GitHub Actions"/></a><br/>Actions</td>
     <td align="center" width="80"><a href="https://wails.io/" target="_blank"><img src="https://wails.io/img/wails-logo-horizontal.svg" width="60" height="40" alt="Wails"/></a><br/>Wails</td>
     <td align="center" width="80"><a href="https://grpc.io/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grpc/grpc-original.svg" width="40" height="40" alt="gRPC"/></a><br/>gRPC</td>
-    <td align="center" width="80"><a href="https://protobuf.dev/" target="_blank"><img src="https://www.vectorlogo.zone/logos/google_protocol_buffers/google_protocol_buffers-icon.svg" width="40" height="40" alt="Protobuf"/></a><br/>Protobuf</td>
   </tr>
 </table>
 
