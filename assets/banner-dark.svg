@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-label="John Nirmal - Software Engineer">
+  <defs>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6b5a3a"/>
+      <stop offset="100%" stop-color="#3a2e18"/>
+    </linearGradient>
+    <radialGradient id="tabletGrad" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#d4c389"/>
+      <stop offset="60%" stop-color="#b8a36a"/>
+      <stop offset="100%" stop-color="#8a7548"/>
+    </radialGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a2456"/>
+      <stop offset="100%" stop-color="#0a1230"/>
+    </radialGradient>
+    <pattern id="parchTexture" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="transparent"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#4a2e08" stroke-width="0.3" opacity="0.15"/>
+    </pattern>
+    <filter id="goldGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Hyrule night sky background -->
+  <rect width="900" height="260" fill="url(#bgGrad)"/>
+
+  <!-- Twinkling stars -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="80" cy="40" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="25" r="0.8"><animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="50" r="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="30" r="0.7"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="45" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="22" r="0.9"><animate attributeName="opacity" values="1;0.4;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="55" r="1"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="220" r="0.8"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="225" r="1"><animate attributeName="opacity" values="1;0.3;1" dur="2.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Animated triforce top center -->
+  <g transform="translate(450, 30)">
+    <polygon points="0,-10 12,12 -12,12" fill="#f5d76e" stroke="#8b5a14" stroke-width="0.8" filter="url(#goldGlow)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- Stone tablet frame -->
+  <rect x="30" y="60" width="840" height="180" rx="14" fill="url(#frameGrad)"
+        stroke="#2a1e08" stroke-width="2"/>
+
+  <!-- Side gold diamond accents -->
+  <g fill="#f5d76e" filter="url(#goldGlow)">
+    <polygon points="30,150 22,158 30,166 38,158"/>
+    <polygon points="870,150 862,158 870,166 878,158"/>
+  </g>
+
+  <!-- Tablet inner surface -->
+  <rect x="42" y="72" width="816" height="156" rx="8" fill="url(#tabletGrad)"/>
+  <rect x="42" y="72" width="816" height="156" rx="8" fill="url(#parchTexture)"/>
+
+  <!-- Tablet text content with sequential fade-in -->
+  <g font-family="'Cinzel', 'Times New Roman', Georgia, serif" font-weight="500">
+
+    <!-- Line 1: italic header -->
+    <text x="450" y="100" font-size="13" font-style="italic" fill="#5a4020" text-anchor="middle" opacity="0">
+      ⚯  Engraved upon ancient stone  ⚯
+      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.5s" fill="freeze"/>
+    </text>
+
+    <!-- Line 2 -->
+    <text x="70" y="125" font-size="14" fill="#3a2a14" opacity="0">
+      <tspan fill="#6b8e23" font-weight="700">[1/5]</tspan>  Awakening Hero from slumber...
+      <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <!-- Line 3 -->
+    <text x="70" y="146" font-size="14" fill="#2d5a2d" opacity="0">
+      <tspan fill="#6b8e23" font-weight="700">[2/5]</tspan>  <tspan font-weight="700">✓</tspan> Master Sword equipped &#8212; <tspan fill="#3a2a14">Qt6 &amp; Modern C++</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <!-- Line 4 -->
+    <text x="70" y="167" font-size="14" fill="#2d5a2d" opacity="0">
+      <tspan fill="#6b8e23" font-weight="700">[3/5]</tspan>  <tspan font-weight="700">✓</tspan> Hylian Shield ready &#8212; <tspan fill="#3a2a14">OpenGL rendering</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <!-- Line 5 -->
+    <text x="70" y="188" font-size="14" fill="#3a2a14" opacity="0">
+      <tspan fill="#6b8e23" font-weight="700">[4/5]</tspan>  Threading subsystems synchronized... 247 / 247 OK
+      <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <!-- Line 6: the big Hey Listen -->
+    <text x="450" y="213" font-size="18" font-weight="700" fill="#8b4513" text-anchor="middle" letter-spacing="3" opacity="0">
+      ◆  HEY!  LISTEN!  ◆
+      <animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.5s" fill="freeze"/>
+      <animate attributeName="fill" values="#8b4513;#cd853f;#8b4513" begin="3.8s" dur="2s" repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+  <!-- Subtitle below tablet -->
+  <text x="450" y="252" font-family="'Cinzel', Georgia, serif" font-size="11"
+        fill="#c9b87a" text-anchor="middle" letter-spacing="6" opacity="0">
+    SOFTWARE ENGINEER · HERO OF HYRULE
+    <animate attributeName="opacity" from="0" to="0.85" begin="4s" dur="0.6s" fill="freeze"/>
+  </text>
+</svg>

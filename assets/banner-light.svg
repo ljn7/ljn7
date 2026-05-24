@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-label="John Nirmal - Software Engineer">
+  <defs>
+    <linearGradient id="frameGradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b7544"/>
+      <stop offset="100%" stop-color="#5a4020"/>
+    </linearGradient>
+    <radialGradient id="tabletGradL" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#e8d8a8"/>
+      <stop offset="60%" stop-color="#c9b87a"/>
+      <stop offset="100%" stop-color="#a08850"/>
+    </radialGradient>
+    <radialGradient id="bgGradL" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#a3c4dc"/>
+      <stop offset="100%" stop-color="#6b94b5"/>
+    </radialGradient>
+    <pattern id="parchTextureL" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="transparent"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#4a2e08" stroke-width="0.3" opacity="0.15"/>
+    </pattern>
+    <filter id="goldGlowL" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="260" fill="url(#bgGradL)"/>
+
+  <!-- Daytime: gentle cloud hints -->
+  <g fill="#ffffff" opacity="0.4">
+    <ellipse cx="120" cy="45" rx="40" ry="6"/>
+    <ellipse cx="320" cy="30" rx="55" ry="5"/>
+    <ellipse cx="600" cy="50" rx="45" ry="7"/>
+    <ellipse cx="780" cy="35" rx="50" ry="5"/>
+  </g>
+
+  <!-- Animated triforce -->
+  <g transform="translate(450, 30)">
+    <polygon points="0,-10 12,12 -12,12" fill="#f5d76e" stroke="#8b5a14" stroke-width="0.8" filter="url(#goldGlowL)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <rect x="30" y="60" width="840" height="180" rx="14" fill="url(#frameGradL)"
+        stroke="#2a1e08" stroke-width="2"/>
+
+  <g fill="#f5d76e" filter="url(#goldGlowL)">
+    <polygon points="30,150 22,158 30,166 38,158"/>
+    <polygon points="870,150 862,158 870,166 878,158"/>
+  </g>
+
+  <rect x="42" y="72" width="816" height="156" rx="8" fill="url(#tabletGradL)"/>
+  <rect x="42" y="72" width="816" height="156" rx="8" fill="url(#parchTextureL)"/>
+
+  <g font-family="'Cinzel', 'Times New Roman', Georgia, serif" font-weight="500">
+
+    <text x="450" y="100" font-size="13" font-style="italic" fill="#5a4020" text-anchor="middle" opacity="0">
+      ⚯  Engraved upon ancient stone  ⚯
+      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.5s" fill="freeze"/>
+    </text>
+
+    <text x="70" y="125" font-size="14" fill="#3a2a14" opacity="0">
+      <tspan fill="#6b8e23" font-weight="700">[1/5]</tspan>  Awakening Hero from slumber...
+      <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <text x="70" y="146" font-size="14" fill="#2d5a2d" opacity="0">
+      <tspan fill="#6b8e23" font-weight="700">[2/5]</tspan>  <tspan font-weight="700">✓</tspan> Master Sword equipped &#8212; <tspan fill="#3a2a14">Qt6 &amp; Modern C++</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <text x="70" y="167" font-size="14" fill="#2d5a2d" opacity="0">
+      <tspan fill="#6b8e23" font-weight="700">[3/5]</tspan>  <tspan font-weight="700">✓</tspan> Hylian Shield ready &#8212; <tspan fill="#3a2a14">OpenGL rendering</tspan>
+      <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <text x="70" y="188" font-size="14" fill="#3a2a14" opacity="0">
+      <tspan fill="#6b8e23" font-weight="700">[4/5]</tspan>  Threading subsystems synchronized... 247 / 247 OK
+      <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.4s" fill="freeze"/>
+    </text>
+
+    <text x="450" y="213" font-size="18" font-weight="700" fill="#8b4513" text-anchor="middle" letter-spacing="3" opacity="0">
+      ◆  HEY!  LISTEN!  ◆
+      <animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.5s" fill="freeze"/>
+      <animate attributeName="fill" values="#8b4513;#cd853f;#8b4513" begin="3.8s" dur="2s" repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+  <text x="450" y="252" font-family="'Cinzel', Georgia, serif" font-size="11"
+        fill="#3a2a14" text-anchor="middle" letter-spacing="6" opacity="0">
+    SOFTWARE ENGINEER · HERO OF HYRULE
+    <animate attributeName="opacity" from="0" to="0.85" begin="4s" dur="0.6s" fill="freeze"/>
+  </text>
+</svg>

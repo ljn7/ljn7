@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" role="img" aria-label="Stats and Quest Log panels">
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4c389" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#a08850" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+
+  <!-- LEFT PANEL: Stats -->
+  <g transform="translate(20, 10)">
+    <rect width="420" height="220" rx="6" fill="url(#panelBg)" stroke="#f5d76e" stroke-width="2"/>
+    <rect x="3" y="3" width="414" height="214" rx="5" fill="none" stroke="#f5d76e" stroke-width="0.5" opacity="0.4"/>
+
+    <!-- Title -->
+    <text x="210" y="32" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#8b4513" text-anchor="middle" letter-spacing="4">◆ STATS ◆</text>
+    <line x1="40" y1="42" x2="380" y2="42" stroke="#f5d76e" stroke-width="0.6" opacity="0.4" stroke-dasharray="3,3"/>
+
+    <!-- Rows -->
+    <g font-family="'Cinzel', Georgia, serif" font-size="13">
+      <text x="30" y="70" fill="#5a4020" letter-spacing="1">Class</text>
+      <text x="390" y="70" fill="#1a4a7a" text-anchor="end">Software Engineer</text>
+
+      <text x="30" y="98" fill="#5a4020" letter-spacing="1">Guild</text>
+      <text x="390" y="98" fill="#8b4513" font-weight="700" text-anchor="end">CDPG @ IISc</text>
+
+      <text x="30" y="126" fill="#5a4020" letter-spacing="1">Specialty</text>
+      <text x="390" y="126" fill="#1a4a7a" text-anchor="end">Systems / C++</text>
+
+      <text x="30" y="154" fill="#5a4020" letter-spacing="1">Tools of Trade</text>
+      <text x="390" y="154" fill="#1a4a7a" text-anchor="end">Qt6 · OpenGL · CMake</text>
+
+      <text x="30" y="182" fill="#5a4020" letter-spacing="1">Languages</text>
+      <text x="390" y="182" fill="#1a4a7a" text-anchor="end">C++ · Go · Rust · Python</text>
+
+      <text x="30" y="210" fill="#5a4020" letter-spacing="1">Portfolio</text>
+      <text x="390" y="210" fill="#1a4a7a" text-anchor="end" font-style="italic">johnnirmal.com</text>
+    </g>
+  </g>
+
+  <!-- RIGHT PANEL: Quest Log -->
+  <g transform="translate(460, 10)">
+    <rect width="420" height="220" rx="6" fill="url(#panelBg)" stroke="#f5d76e" stroke-width="2"/>
+    <rect x="3" y="3" width="414" height="214" rx="5" fill="none" stroke="#f5d76e" stroke-width="0.5" opacity="0.4"/>
+
+    <text x="210" y="32" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="#8b4513" text-anchor="middle" letter-spacing="3">◆ QUEST LOG ◆</text>
+    <line x1="40" y1="42" x2="380" y2="42" stroke="#f5d76e" stroke-width="0.6" opacity="0.4" stroke-dasharray="3,3"/>
+
+    <g font-family="'Cinzel', Georgia, serif" font-size="13">
+      <text x="30" y="70" fill="#5a4020" letter-spacing="1">Qt6 Migration (SUMO++)</text>
+      <text x="390" y="70" fill="#8b4513" font-weight="700" text-anchor="end">★ Active</text>
+
+      <text x="30" y="98" fill="#5a4020" letter-spacing="1">OpenGL Rendering</text>
+      <text x="390" y="98" fill="#8b4513" font-weight="700" text-anchor="end">★ Active</text>
+
+      <text x="30" y="126" fill="#5a4020" letter-spacing="1">Threading &amp; Sync</text>
+      <text x="390" y="126" fill="#2d5a2d" text-anchor="end">Ongoing</text>
+
+      <text x="30" y="154" fill="#5a4020" letter-spacing="1">Developer Tooling</text>
+      <text x="390" y="154" fill="#2d5a2d" text-anchor="end">Ongoing</text>
+
+      <text x="30" y="182" fill="#5a4020" letter-spacing="1">Cross-Platform Profiling</text>
+      <text x="390" y="182" fill="#2d5a2d" text-anchor="end">Ongoing</text>
+
+      <text x="30" y="210" fill="#5a4020" letter-spacing="1">M.Sc. Data Science</text>
+      <text x="390" y="210" fill="#cd853f" text-anchor="end" font-style="italic">In Pursuit</text>
+    </g>
+  </g>
+</svg>
