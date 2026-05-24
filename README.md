@@ -60,7 +60,7 @@ public:
 };
 ```
 
-A Software Engineer at **CDPG, IISc**, currently on a grand quest to modernize legacy C++ GUI systems — porting from FOX Toolkit to **Qt6**, working with **OpenGL** rendering pipelines, and chasing safer threading across Windows, Linux, and macOS. Portfolio: [johnnirmal.com](https://johnnirmal.com).
+A Software Engineer at **CDPG, IISc**, currently on a grand quest to modernize legacy C++ GUI systems - porting from FOX Toolkit to **Qt6**, working with **OpenGL** rendering pipelines, and chasing safer threading across Windows, Linux, and macOS. Portfolio: [johnnirmal.com](https://johnnirmal.com).
 
 <!-- ═════════════ DIVIDER ═════════════ -->
 <p align="center"><img src="./assets/divider.svg" alt="" width="100%" /></p>
