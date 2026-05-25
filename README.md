@@ -43,20 +43,50 @@
 
 ```cpp
 // Excerpt from the ancient codex
+#include <string>
+#include <vector>
+
 class JohnNirmal {
 public:
-    std::string title  = "Software Engineer @ CDPG, IISc";
-    std::string realm  = "Bengaluru, Hyrule";
-    std::string quest  = "Modernize the legacy. Master the threads.";
+    std::string role = "Software Engineer";
+    std::string currentRealm = "Bengaluru, Hyrule";
+    std::string quest = "Explore systems. Craft tools. Ship with courage.";
 
-    std::vector<std::string> equipped = {
-        "Modern C++", "Qt6", "OpenGL", "Systems Programming",
-        "Performance Debugging", "Go", "Fullstack Engineering"
+    std::vector<std::string> inventory = {
+        "C++ Master Sword",
+        "Advanced C++ Spellbook",
+        "Systems Programming Shield",
+        "Software Engineering Compass",
+        "Debugging Lens of Truth",
+        "Performance Profiling Rune"
     };
 
-    void embark() {
-        while (curious) { learn(); ship(); repeat(); }
+    void startQuest() {
+        while (curious) {
+            build();
+            debug();
+            profile();
+            ship();
+
+            learn();
+            workout();
+            pray();
+            rest();
+        }
     }
+
+private:
+    static constexpr bool curious = true;
+
+    void build();
+    void debug();
+    void profile();
+    void ship();
+
+    void learn();
+    void workout();
+    void pray();
+    void rest();
 };
 ```
 
